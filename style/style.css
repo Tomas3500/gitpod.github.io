@@ -601,6 +601,7 @@ strong {
     border-radius: 12px;
     padding: 7px 12px 9px 12px;
     color: #FFFFFF;
+    font-size: 14px;
 }
 
 .workpress_title {
@@ -629,7 +630,6 @@ strong {
 
 .block-footer__links {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 
 }
@@ -700,16 +700,45 @@ hr {
         padding: 20px;
     }
 
-    .cookies{
+    .cookies {
         justify-content: center;
+    }
+    .links a {
+        padding: 20px;
     }
 
 }
 
-@media screen and (max-width: 873px){
-    hr{
+@media screen and (max-width: 873px) {
+    hr {
         margin-top: 50px;
     }
 
 
+}
+
+@media screen and (max-width: 400px) {
+    .block-footer__links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-links ul {
+        padding: 10px 15px;
+    }
+
+}
+
+@media screen and (max-width: 385px){
+    .block-img-lang p{
+        margin-left: 12px;
+        font-size: 12px;
+    }
+
+    .launch_workspace a{
+        font-size: 12px;
+    }
+
+    .title{
+        font-size: 35px;
+    }
 }
